@@ -8,6 +8,16 @@ O objetivo é apresentar abordagens distintas para lidar com exceções em aplic
 O repositório contém uma proposta desenvolvida em três versões distintas, cada uma com uma maneira diferente de implementar o tratamento de exceções.  
 Essa comparação é útil para estudos e para entender melhor como o Java lida com erros em tempo de execução.
 
+#### Problema exemplo:
+Fazer um programa para ler os dados de uma reserva de hotel (número do quarto, data
+de entrada e data de saída) e mostrar os dados da reserva, inclusive sua duração em
+dias. Em seguida, ler novas datas de entrada e saída, atualizar a reserva, e mostrar
+novamente a reserva com os dados atualizados. O programa não deve aceitar dados
+inválidos para a reserva, conforme as seguintes regras:
+- Alterações de reserva só podem ocorrer para datas futuras
+- A data de saída deve ser maior que a data de entrada
+#### Fim do problema exemplo.
+
 ## 🛠️ Tecnologias Utilizadas
 
 - Java 17
